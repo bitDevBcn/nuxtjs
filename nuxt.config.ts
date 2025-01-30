@@ -1,5 +1,4 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
-import { resolve } from 'path'
+import { resolve } from 'path'
 
 export default defineNuxtConfig({
   alias: {
@@ -11,13 +10,13 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content', '@pinia/nuxt'],
   postcss: {
     plugins: {
-      '@tailwindcss/nesting': {},  // Corrección aquí
+      '@tailwindcss/nesting': {},  
       tailwindcss: {},  
       autoprefixer: {},
     },
   },
-});
-
+  plugins: ['~/plugins/flowbite'], // Aquí es donde se debe agregar Flowbite
+})
 
 
 

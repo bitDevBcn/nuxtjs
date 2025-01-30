@@ -8,8 +8,8 @@
         <nav>
           <ul class="hidden md:flex space-x-6">
             <li><NuxtLink to="/" class="hover:underline">Inicio</NuxtLink></li>
-            <li><NuxtLink to="/about" class="hover:underline">Nosotros</NuxtLink></li>
-            <li><NuxtLink to="/contact" class="hover:underline">Contacto</NuxtLink></li>
+            <li><NuxtLink to="/" class="hover:underline">Nosotros</NuxtLink></li>
+            <li><NuxtLink to="/" class="hover:underline">Contacto</NuxtLink></li>
           </ul>
   
           <!-- Botón de menú hamburguesa en móvil -->
@@ -21,8 +21,8 @@
       <div v-if="menuOpen" class="md:hidden bg-gray-800 p-4">
         <ul class="space-y-3">
           <li><NuxtLink to="/" class="block hover:underline">Inicio</NuxtLink></li>
-          <li><NuxtLink to="/about" class="block hover:underline">Nosotros</NuxtLink></li>
-          <li><NuxtLink to="/contact" class="block hover:underline">Contacto</NuxtLink></li>
+          <li><NuxtLink to="/" class="block hover:underline">Nosotros</NuxtLink></li>
+          <li><NuxtLink to="/" class="block hover:underline">Contacto</NuxtLink></li>
         </ul>
       </div>
     </header>
